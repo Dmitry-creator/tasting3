@@ -9,7 +9,7 @@ before_install:
 addons:
   sonarcloud:
     organization: "dmitry-creator"
-    token: $SONAR_TOKEN
+    token: SONAR_TOKEN=673a7a929a6f2464acc1a6ef95eb0bd15c1068d0
 
 script:
   - qmake
